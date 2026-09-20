@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Sorry Jerikaa ❤️</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=Great+Vibes&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <!-- PRELOADER -->
+    <div id="loader">
+        <div class="loader-heart">❤️</div>
+        <p>Preparing something special...</p>
+        <span>For Jerikaa ✨</span>
+    </div>
+
+
+    <!-- FLOATING HEARTS -->
+    <div class="hearts"></div>
+
+
+    <!-- NAVBAR -->
+    <header class="navbar">
+
+        <div class="logo">
+            <span>♥</span>
+            Sorry Jerikaa
+        </div>
+
+        <nav>
+            <a href="#home" class="active">Home</a>
+            <a href="#apology">Apology</a>
+            <a href="#reasons">Reasons</a>
+            <a href="#promise">Promise</a>
+            <a href="#forever">Forever</a>
+        </nav>
+
+        
+    </header>
+
+
+    <!-- HERO -->
+    <section class="hero" id="home">
+
+        <div class="hero-content">
+
+            <div class="eyebrow">
+                ✦ A SPECIAL APOLOGY FOR MY AMAZING GIRLFRIEND ✦
+            </div>
+
+            <h1>
+                I'm Sorry,
+                <span>Jerikaaa ♡</span>
+            </h1>
+
+            <p class="hero-text">
+                You mean the world to me, and I never want to make
+                you feel unhappy. So here I am...
+                doing sit-ups because I know I messed up last night,
+                and make uhh feel so baad pls forgivee meee pleaseee
+                forgivee urr ayuu babyy❤️
+                and saying it from the bottom of my heart.
+            </p>
+
+            <button class="main-btn" onclick="scrollToApology()">
+                ♛ Explore My Apology
+                <span>→</span>
+            </button>
+
+            <div class="features">
+
+                <div>
+                    <strong>♢</strong>
+                    <span>Premium<br>Experience</span>
+                </div>
+
+                <div>
+                    <strong>♡</strong>
+                    <span>100%<br>Sincere</span>
+                </div>
+
+                <div>
+                    <strong>♧</strong>
+                    <span>Made Just<br>For You</span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <!-- TEDDY -->
+        <div class="teddy-area">
+
+            <div class="glow"></div>
+
+            <div class="speech">
+                Sorryyy<br>
+                <b>Jerikaaa!!</b>
+                <span>♡</span>
+            </div>
+<div class="teddy" id="teddy">
+
+    <!-- UPPER BODY -->
+    <div class="upper-body">
+
+        <div class="ear left-ear"></div>
+        <div class="ear right-ear"></div>
+
+        <div class="head">
+
+            <div class="eye eye-left"></div>
+            <div class="eye eye-right"></div>
+
+            <div class="muzzle">
+                <div class="nose"></div>
+                <div class="mouth"></div>
+            </div>
+
+        </div>
+
+        <div class="body">
+
+            <div class="shirt">
+                <span>BETTER</span>
+                <span>FOR YOU</span>
+                <b>♡</b>
+            </div>
+
+        </div>
+
+        <div class="arm arm-left"></div>
+        <div class="arm arm-right"></div>
+
+    </div>
+
+
+    <!-- FIXED LEGS -->
+    <div class="leg leg-left"></div>
+    <div class="leg leg-right"></div>
+
+</div>
+
+
+            <!-- Teddy counter -->
+            <div class="teddy-card">
+
+                <div>
+                    <span>♡ Situps</span>
+                    <strong id="situpCount">0</strong>
+                </div>
+
+                <div>
+                    <span>♡ Apologies</span>
+                    <strong>∞</strong>
+                </div>
+
+                <div>
+                    <span>♡ Love</span>
+                    <strong>∞</strong>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PREMIUM INTRO -->
+    <section class="premium-section">
+
+        <div class="premium-box">
+
+            <div class="crown">♛</div>
+
+            <h2>
+                Why This Website Is
+                <span>Special?</span>
+            </h2>
+
+            <div class="premium-list">
+
+                <p>oh sorrryy sorryyy what is premium list uhh aree premium to me bachaaa</p>
+
+            </div>
+
+            <div class="gold-text">
+                Because you deserve always the best my pyaara sa bachaaa ... ♡
+            </div>
+
+        </div>
+
+
+        <div class="quick-cards">
+
+            <div class="quick-card" onclick="openApology()">
+                <div class="icon">🧸</div>
+                <h3>Teddy Bear</h3>
+                <p>Watch me suffer<br>for you 😭</p>
+                <button>Watch Now</button>
+            </div>
+
+            <div class="quick-card" onclick="openLetter()">
+                <div class="icon">💌</div>
+                <h3>Apology Letter</h3>
+                <p>Read my heart<br>word by word.</p>
+                <button>Read Now</button>
+            </div>
+
+            <div class="quick-card" onclick="openReasons()">
+                <div class="icon">♥</div>
+                <h3>Reasons</h3>
+                <p>Why I'm really<br>sorry.</p>
+                <button>See Reasons</button>
+            </div>
+
+            <div class="quick-card" onclick="openPromise()">
+                <div class="icon">🎁</div>
+                <h3>My Promise</h3>
+                <p>I'll do better<br>for you.</p>
+                <button>View Promise</button>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- APOLOGY -->
+    <section class="section" id="apology">
+
+        <div class="section-label">
+            01 — FROM MY HEART
+        </div>
+
+        <h2>
+            Dear <span>Jerikaaa</span> ❤️
+        </h2>
+
+        <div class="letter">
+
+            <div class="letter-top">
+                <span>💌</span>
+                <span>With Love</span>
+            </div>
+
+            <p>
+                I know that sometimes I make mistakes.
+                Sometimes I say things I shouldn't,
+                sometimes I do things without realizing
+                how they make you feel.
+            </p>
+
+            <p>
+                But one thing I want you to know is that
+                hurting you is never what I want.
+            </p>
+
+            <p>
+                You are incredibly special to me, Jerikaaa.
+                And if I could go back and change that moment,
+                I would.
+            </p>
+
+            <p class="highlight">
+                So from the deepest corner of my heart...
+            </p>
+
+            <h3>
+                I'M SORRYYYYY JERIKAAA ❤️
+            </h3>
+
+            <p>
+                Please forgive your ayuu babyy who is currently
+                making his teddy do 100 sit-ups because
+                apparently that's the punishment 😭🧸
+            </p>
+
+            <div class="signature">
+                Yours,<br>
+                <span>Your ayuuu babyy  ❤️</span>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- REASONS -->
+    <section class="section reasons" id="reasons">
+
+        <div class="section-label">
+            02 — WHY I'M SORRY
+        </div>
+
+        <h2>
+            I Have <span>Reasons</span> ❤️
+        </h2>
+
+        <div class="reason-grid">
+
+            <div class="reason">
+                <span>01</span>
+                <h3>I Hurt You</h3>
+                <p>
+                    And seeing you upset is something
+                    I never want to experience in my lifetime.
+                </p>
+            </div>
+
+            <div class="reason">
+                <span>02</span>
+                <h3>I Should Have Understood</h3>
+                <p>
+                    I should have listened more carefully
+                    and understood your feelings that i did not acknowledge yesterday.
+                </p>
+            </div>
+
+            <div class="reason">
+                <span>03</span>
+                <h3>You Deserve Better</h3>
+                <p>
+                    You deserve patience, understanding,
+                    respect and lots of love.(And I promise to give you all of that)
+                </p>
+            </div>
+
+            <div class="reason">
+                <span>04</span>
+                <h3>I Loveeeee Uhhh Sooo Sooo Much my pyariii si jerikaaa</h3>
+                <p>
+                    And because I love you,
+                    your happiness matters to me.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- PROMISE -->
+    <section class="promise-section" id="promise">
+
+        <div class="section-label">
+            03 — MY PROMISE
+        </div>
+
+        <h2>
+            Things I Promise
+            <span>To Do Better</span>
+        </h2>
+
+        <div class="promise-card">
+
+            <div class="promise-item">
+                <div class="check">✓</div>
+                <div>
+                    <h3>Listen Better</h3>
+                    <p>I'll listen to you properly.</p>
+                </div>
+            </div>
+
+            <div class="promise-item">
+                <div class="check">✓</div>
+                <div>
+                    <h3>Understand You</h3>
+                    <p>Your feelings will always matter.</p>
+                </div>
+            </div>
+
+            <div class="promise-item">
+                <div class="check">✓</div>
+                <div>
+                    <h3>Be More Careful</h3>
+                    <p>I'll think before I act or speak.</p>
+                </div>
+            </div>
+
+            <div class="promise-item">
+                <div class="check">✓</div>
+                <div>
+                    <h3>Keep Loving You</h3>
+                    <p>This one doesn't need changing. ❤️</p>
+                </div>
+            </div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOREVER -->
+    <section class="forever" id="forever">
+
+        <div class="stars"></div>
+
+        <div class="forever-content">
+
+            <div class="big-heart">♥</div>
+
+            <p>AND AFTER ALL OF THIS...</p>
+
+            <h2>
+                I Still Choose
+                <span>You.</span>
+            </h2>
+
+            <p class="forever-text">
+                Today. Tomorrow.
+                And every day after that.
+            </p>
+
+            <button onclick="forgiveMe()">
+                💗 One More Chance?
+            </button>
+
+            <div id="forgiveMessage"></div>
+
+        </div>
+
+    </section>
+
+
+
+    <!-- FOOTER -->
+    <footer>
+
+        <div class="footer-logo">
+            Sorry Jerikaa ♡
+        </div>
+
+        <p>
+            Made with love, guilt & way too many sit-ups 🧸
+        </p>
+
+        <div class="footer-love">
+            I Loveeeee uhh , Jerikaaa ❤️
+        </div>
+
+    </footer>
+
+
+
+    <!-- APOLOGY MODAL -->
+    <div class="modal" id="modal">
+
+        <div class="modal-content">
+
+            <button class="close" onclick="closeModal()">×</button>
+
+            <div id="modalIcon">💌</div>
+
+            <h2 id="modalTitle">Sorry Jerikaa</h2>
+
+            <p id="modalText"></p>
+
+            <button class="modal-btn" onclick="closeModal()">
+                Okay ❤️
+            </button>
+
+        </div>
+
+    </div>
+
+
+
+    <!-- MUSIC -->
+    <audio id="music" loop>
+        <source src="assets/music.mp3" type="audio/mpeg">
+    </audio>
+
+    <button class="music-btn" onclick="toggleMusic()" id="musicBtn">
+        ♫
+    </button>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
